@@ -14,24 +14,71 @@ export default {
 </script>
 
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-    <div class="divcentral">
-      <h1>Sobre mim</h1>
-      <p>Ola meu nome é Emmanuelle, tenho 19 anos e nasci no interior do Paraná.
+  <main> 
+    <div class="divsocorro">
+      <div class="divfoto">
+        <img class = "imgmanu" src="@/assets/manu.jpeg">
+      </div>
+      <div class="divsobremim" >
+        <h1 class="titulo">Sobre mim</h1>
+      <p>Olá meu nome é Emmanuelle, tenho 19 anos e nasci no interior do Paraná. 
       </p>
-      <img class = "img" src="@/assets/manu.jpeg">
+      <p>Me considero uma pessoa muito dedicada em tudo que me proponho a fazer
+        e sempre busco aprender coisas novas. </p>
+      <p>Gosto de ouvir música e também passar o tempo com minha família e amigos.</p>
+      <p class="titulodalista"> Um pouco mais sobre mim:</p>
+      <ul class="listasobremim">
+        <li>Já morei em vários lugares</li>
+        <li>Minha família é bem grande</li>
+        <li>Esses são os meus hobbies</li>
+      </ul>
+      </div>
     </div>
+    <br>
+
   </main>
 </template>
 
 <style scoped>
-.divcentral{
+
+.titulodalista {
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  font-size: 40px;
 }
 
+.listasobremim{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  list-style-type: square;
+  flex-direction: column;
+  line-height: 80px; 
+}
+
+.imgmanu{
+  width:250px;
+  border-radius: 20%;
+  padding-top: 5vh;
+}
+
+.divsocorro{
+  margin-top: 5vh;
+  color: white;
+  font-size: 30px;
+  width: 100vw;
+  display: flex;
+}
+.divfoto{
+  width: 30vh;
+}
+.divsobremin{
+  width: 70vh;
+}
 </style>

@@ -19,9 +19,9 @@ import { RouterLink, RouterView } from 'vue-router'
     
     <main> 
       <RouterView/>
-    </main>
+    </main> 
   
-    <footer class="footer"> Um pouco mais sobre mim  </footer>
+    <footer class="footer"> "O universo é uma harmonia de contrários."</footer>
 </div>
 
 </template>
@@ -33,6 +33,7 @@ main {
 }
 
 footer {
-  height: 10vh;
+  height: 20vh;
+  font-size: 25px;
 }
 </style>
