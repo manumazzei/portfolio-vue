@@ -28,9 +28,9 @@ export default {
       <p>Gosto de ouvir música e também passar o tempo com minha família e amigos.</p>
       <p class="titulodalista"> Um pouco mais sobre mim:</p>
       <ul class="listasobremim">
-        <li>Já morei em vários lugares</li>
-        <li>Minha família é bem grande</li>
-        <li>Esses são os meus hobbies</li>
+        <li>Já morei em vários <a href='http://localhost:5173/lugares'>lugares</a></li>
+        <li>Minha <a href='http://localhost:5173/familyView'>família</a> é bem grande</li>
+        <li>Esses são os meus <a href='http://localhost:5173/hobbies'>hobbies</a></li>
       </ul>
       </div>
     </div>
