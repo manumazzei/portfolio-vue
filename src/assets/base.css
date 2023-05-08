@@ -109,7 +109,7 @@ text-align: center;
 
 
 body {
-  background-image: url(/home/emmanuelle/development/projetoVue/portfolio/src/assets/fundoestrelado.jpg);
+  background-image: url("./fundoestrelado.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
