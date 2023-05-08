@@ -29,7 +29,7 @@
   height: 25%;
   width: 40%;
   flex-direction: row;
-  background-image: url(src/assets/academia.jpeg);
+  background-image: url("./academia.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
 } 
@@ -40,7 +40,7 @@
   width: 40%;
   flex-direction:row;
   flex-wrap: wrap;
-  background-image: url(src/assets/corinthians.jpeg);
+  background-image: url("./corinthians.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -51,7 +51,7 @@
   width: 40%;
   flex-direction:row;
   flex-wrap: wrap;
-  background-image: url(src/assets/livro.jpeg);
+  background-image: url("./livro.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -62,7 +62,7 @@
   width: 40%;
   flex-direction:row;
   flex-wrap: wrap;
-  background-image: url(src/assets/volei.jpeg);
+  background-image: url("./volei.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
