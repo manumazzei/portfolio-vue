@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterView/>
     </main> 
   
-    <footer class="footer"> "O universo é uma harmonia de contrários."</footer>
+    <footer class="footer"> "O universo é uma harmonia de contrários." - Pitágoras </footer>
 </div>
 
 </template>
