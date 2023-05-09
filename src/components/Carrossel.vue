@@ -9,29 +9,25 @@ export default {
 
     data() {
         return {
+            index: 0,
             imagens: [
                 {
-                    id: 1,
                     src: src1,
                     alt: "Familia"
                 },
                 {
-                    id: 2,
                     src: src2,
                     alt: "Livro"
                 },
                 {
-                    id: 3,
                     src: src3,
                     alt: "Jardim"
                 },
                 {
-                    id: 4,
                     src: src4,
                     alt: "Manu"
                 },
                 {
-                    id: 5,
                     src: src5,
                     alt: "Volei"
                 }
@@ -40,10 +36,10 @@ export default {
     },
     methods: {
         prev() {
-
+            this.index == 0 ? (this.index = 4) : this.index--;
         },
         next() {
-
+            this.index == 4 ? (this.index = 0) : this.index++;
         },
     },
 }
@@ -54,32 +50,31 @@ export default {
 
         <div class="card">
 
-            <div class="imagens" v-for="imagem in imagens" :key="imagem.id">
-                <img :src="imagem.src" :alt="imagem.alt">
-            </div>
+            <img :src="imagens[index].src" :alt="imagens[index].alt">
 
         </div>
-    </div>
 
-    <button @click="prev" class="arrows arrow-left">&#10140;</button>
-    <button @click="next" class="arrows arrow-right">&#10140;</button>
+        <button @click="prev" class="arrows arrow-left">&#10140;</button>
+        <button @click="next" class="arrows arrow-right">&#10140;</button>
+    </div>
 </template>
 
 <style scoped>
 .carrossel {
-    position: relative;
-    margin: 0 auto;
     overflow: hidden;
-    max-width: 700px;
+    height: 540px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
-    white-space: nowrap;
-    height: 540px;
+    display: flex;
+    align-items: center;
 }
 
-.card img {
-    height: 100%;
+.card>img {
+    height: 100vh;
 }
 
 
@@ -98,8 +93,7 @@ export default {
 
     /* Posicionamento */
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
     right: 20%;
     left: auto;
 }
