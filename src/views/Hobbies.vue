@@ -71,10 +71,9 @@
   position: relative;
   display: flex;
   align-items: center;
-  font-size: 15px;
   list-style-type: square;
   flex-direction: column;
-  line-height: 55px; 
+  line-height: 40px; 
 }
 
 </style>

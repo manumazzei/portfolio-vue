@@ -10,7 +10,6 @@
   <style scoped>
   .fotofamilia{
     display:flex;
-    width: 80ch;
     height: 60ch;
   }
 
