@@ -51,6 +51,7 @@
 }
 
 
+
 a {
   color: white; /* O pai dele fala uma cor padrão e se nao ele pega o preto: inherit ou initial*/
   text-decoration: none;
@@ -111,9 +112,6 @@ text-align: center;
 
 
 body {
-  background-image: url("./fundoestrelado.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
   text-align: center;
   overflow: hidden;
 }
