@@ -3,6 +3,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <div id="bg">
+    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_f24znioj.json"  background="transparent"  speed="1"  loop autoplay></lottie-player>
+  </div>
   <div> 
     <header> 
       <h1> Emmanuelle Matos </h1>
@@ -28,6 +31,15 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <style scoped>
+
+#bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
 main {
   height: 90vh;
 }
