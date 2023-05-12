@@ -1,9 +1,9 @@
 <script>
 import src1 from '../assets/familia.jpeg'
-import src2 from '../assets/livro.jpeg'
-import src3 from '../assets/jardim.jpeg'
-import src4 from '../assets/manu.jpeg'
-import src5 from '../assets/volei.jpeg'
+import src2 from '../assets/avos.jpeg'
+import src3 from '../assets/thor.jpeg'
+import src4 from '../assets/pierre.jpeg'
+import src5 from '../assets/mae.jpeg'
 
 export default {
 
@@ -17,19 +17,19 @@ export default {
                 },
                 {
                     src: src2,
-                    alt: "Livro"
+                    alt: "Avos"
                 },
                 {
                     src: src3,
-                    alt: "Jardim"
+                    alt: "Thor"
                 },
                 {
                     src: src4,
-                    alt: "Manu"
+                    alt: "Pierre"
                 },
                 {
                     src: src5,
-                    alt: "Volei"
+                    alt: "Mae"
                 }
             ]
         };
@@ -74,7 +74,8 @@ export default {
 }
 
 .card>img {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 

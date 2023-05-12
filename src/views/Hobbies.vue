@@ -31,7 +31,7 @@
   flex-direction: row;
   background-image: url("@/assets/academia.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 } 
 
 .quadradinhodois{
@@ -42,7 +42,7 @@
   flex-wrap: wrap;
   background-image: url("@/assets/corinthians.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .quadradinhotres{
@@ -53,7 +53,7 @@
   flex-wrap: wrap;
   background-image: url("@/assets/livro.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .quadradinhoquatro{
@@ -64,7 +64,7 @@
   flex-wrap: wrap;
   background-image: url("@/assets/volei.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .listahobbies{

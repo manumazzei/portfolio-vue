@@ -59,14 +59,15 @@ a {
 
 header {
   color: white;
-  background-color: #1d2460;
+  background-color: transparent;
   position: fixed; /* fixar posição */
   top:0;
   z-index:2; /* ofundidade */
   width: 97vw; /* ficar do tamanho da tela 100% da largura*/
   display: flex;
   justify-content: space-between ; /* organizar as coisas no mesmo eixo principal */ 
-  padding: 0 2rem; /*  primeiro vertical segundo horizontal  */
+  align-items: center;
+  padding: 0 2rem; /*  primeiro vertical segundo horizontal  */ 
   align-items: center;  /* centraliza ao contrario do justify largura ou altura */
 }
 
