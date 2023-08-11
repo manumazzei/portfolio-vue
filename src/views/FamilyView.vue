@@ -6,13 +6,11 @@ import Carrossel from '../components/Carrossel.vue';
 <template>
     <div>
    <!--  fix/tamanhos_views -->
-      <div><h2>Essa é a minha família: </h2></div>
+      <div><h2>Essa é a minha família</h2></div>
       <Carrossel />
     
 
-      <div><h1 class="titulofamilia">Essa é a minha família: </h1></div>
-
-      <div> <p>Minha família é grande e unida, porém moro apenas com meus pais e meu irmão mais novo.</p>
+      <div>
       </div> 
     </div>
   </template>

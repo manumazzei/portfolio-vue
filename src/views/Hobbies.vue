@@ -1,7 +1,7 @@
 <template>
   <div class="quadradomaior">
    <div> 
-   <div><h2>Esses são meus hobbies: </h2></div>
+   <div style="border: 2px solid transparent; height: 8rem"><h2>Esses são meus hobbies</h2></div>
     <div class="quadradinhoum"></div>
     <div class="quadradinhodois"></div>
     <div class="quadradinhotres"></div>

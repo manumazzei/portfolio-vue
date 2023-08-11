@@ -62,7 +62,7 @@ export default {
 <style scoped>
 .carrossel {
     overflow: hidden;
-    height: 540px;
+    height: 400px;
     width: 900px;
     display: flex;
     justify-content: center;

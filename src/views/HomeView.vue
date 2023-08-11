@@ -67,7 +67,7 @@ export default {
 }
 
 .divsocorro {
-  margin-top: 5vh;
+  margin-top: 2vh;
   display: flex;
 }
 
